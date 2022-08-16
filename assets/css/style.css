@@ -3,15 +3,21 @@
 
 body {
   font-family: "Lora", serif;
-  background-color: #fff0e5;
+  background-color: #f9f4f0;
   color: #10162f;
 }
+
 
 ul {
   list-style: none;
   border: 0;
   padding: 0;
 }
+
+li{
+  padding: 10px 0;
+}
+
 
 .navbar {
   font-family: "Ubuntu", sans-serif;
@@ -30,10 +36,14 @@ h5 {
   font-family: "Ubuntu", sans-serif;
 }
 
-main {
-  margin: 100px;
+main{
+  margin: 200px 0;
 }
 
+.intro{
+  line-height: 30px;
+  font-size: 1.1rem;
+}
 /* .detalhe{
     max-width: 500px;
     height: 1px;
