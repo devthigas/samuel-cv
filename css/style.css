@@ -1,12 +1,16 @@
 
+/* Importação da fonte ubuntu */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Ubuntu:wght@500;700&display=swap");
 
+/* Cores e fundos personalizados */
 body {
 
   background-color: #f9f4f0;
   color: #10162f;
 }
 
+
+/* Estilizando as listas */
 
 ul {
   list-style: none;
@@ -19,10 +23,12 @@ li{
 }
 
 
+/* Fonte personalizada na navbar */
 .navbar {
   font-family: "Ubuntu", sans-serif;
 }
 
+/* Estilização global em titulos  */
 h1 {
   font-family: "Ubuntu", sans-serif;
 }
@@ -36,37 +42,32 @@ h5 {
   font-family: "Ubuntu", sans-serif;
 }
 
+/* fim da estilização global em titulos  */
+
+/* Aplicando margin na sessão principal do site - linha 61 */
 main{
   margin: 200px 0;
 }
 
+/* Formatação de fonte personalizada na introdução - linha 67 */
 .intro{
   line-height: 30px;
   font-size: 1.1rem;
 }
-/* .detalhe{
-    max-width: 500px;
-    height: 1px;
-    background-color: black;
-} */
 
+/* Formatação no botão da pagina  */
 .btn {
   background-color: #3a10e5;
   color: #fff;
   font-weight: 600;
 }
 
+/* Aplicnado borda na sessão sobre */
 .section-border {
   border: 1px solid black;
 }
 
-.social-item {
-  background-color: rgba(255, 255, 255, 0.445);
-  border: 1px solid #10162f;
-  padding: 20px 20px;
-  margin-right: 10px;
-  text-decoration: none;
-}
+/* Aplicando bordas e fundo na sessão formação  */
 
 .formacao-items {
   background-color: rgba(255, 255, 255, 0.274);
