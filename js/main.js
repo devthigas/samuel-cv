@@ -18,5 +18,11 @@ function menuMobileBranco() {
   });
 }
 
+function btnMsg(){
+  alert("formulário em construção")
+}
+
+
+
 navbarBranco();
 menuMobileBranco();
